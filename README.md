@@ -1,25 +1,35 @@
 # CNC Braille Embossing Prototype
 
 ## Overview
-This project presents a low-cost CNC-based system designed to emboss Braille text using Arduino and stepper motors. The prototype demonstrates motion control and accessibility-focused design.
+This project presents a low-cost CNC-based system designed to emboss Braille text using Arduino and stepper motors. The prototype demonstrates motion control, embedded systems integration, and accessibility-focused design.
 
 ## My Contribution
 This is my personal project. I:
 - Assembled the CNC frame
-- Integrated stepper motors and tested axis movement
-- Set up the circuit and verified motion control
-- Calibrated dot alignment for readable Braille output
+- Integrated stepper motors for X, Y, and Z axes
+- Set up and tested the motor driver circuit
+- Calibrated motion and validated Braille dot alignment
 
 ## Prototype Images
 
-### Assembly
-![Assembly](assembly.jpg)
+### Full Assembly
+![Assembly](Assembly.jpg)
+
+### Axis Mechanisms
+**X-Axis**
+![X Axis](X-axis.jpg)
+
+**Y-Axis**
+![Y Axis](Y-axis.jpg)
+
+**Z-Axis / Embossing Mechanism**
+![Z Axis](Z-axis.jpg)
 
 ### Circuit Setup
 ![Circuit](circuit.jpg)
 
 ### Braille Output
-![Output](output.jpg)
+![Output](Output.jpg)
 
 ## Demo Video
 Watch the prototype in action:
@@ -28,8 +38,9 @@ https://drive.google.com/file/d/1zKEh2IA8vTBwCATfsi03S3RSVAxq3Uvj/view?usp=drive
 ## Technologies Used
 - Arduino Uno
 - Stepper motors
-- Motor driver (L293D)
-- CNC control logic
+- Servo motor (Z-axis control)
+- L293D motor driver
+- CNC motion control
 - G-code workflow
 
 ## Applications
